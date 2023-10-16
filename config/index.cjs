@@ -55,6 +55,12 @@ SWITCH: {
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     courseSchedule: true,
   },
+ IS_SHOW_COLOR: true,
+  
+  /** 每日一言 */
+  // 每日一言的内容类型
+  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
+  LITERARY_PREFERENCE: '',
   USERS: [
     {
       // 想要发送的人的名字
